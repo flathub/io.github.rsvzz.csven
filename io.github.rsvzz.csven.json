@@ -16,9 +16,9 @@
       "buildsystem": "meson",
       "sources": [
         {
-          "type": "git",
-          "url": "https://github.com/rsvzz/libquestk.git",
-          "tag":"0.0.1"
+          "type": "archive",
+          "url": "https://github.com/rsvzz/libquestk/archive/refs/tags/0.0.1.tar.gz",
+          "sha256": "d1611e505cfd83f5d3756ac963b311b97451456e2259c38412bc1c81e61d0cc0"
         }
       ]
     },
@@ -28,8 +28,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/rsvzz/csven/archive/refs/tags/0.0.8.tar.gz",
-          "sha256": "7a4e532e4c944aa79b295ea9dc30a551f17d9fcec2391098194ea3e50d0141d8"
+          "url": "https://github.com/rsvzz/csven/archive/refs/tags/0.1.tar.gz",
+          "sha256": "e5ffc52b87bebe7e19fe698029d893b0632789094de1dd0f8ed4f40e1b38c2b1"
         }
               
       ]
