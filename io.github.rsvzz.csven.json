@@ -5,10 +5,14 @@
   "sdk": "org.gnome.Sdk",
   "command": "csven",
   "finish-args": [
-      "--share=ipc",
-      "--device=dri",
-      "--socket=fallback-x11",
-      "--socket=wayland"
+    "--share=ipc",
+    "--device=dri",
+    "--socket=fallback-x11",
+    "--socket=wayland"
+  ],
+  "cleanup": [
+    "/include",
+    "/lib/questk"
   ],
   "modules": [
     {
@@ -28,10 +32,9 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/rsvzz/csven/archive/refs/tags/0.1.1.tar.gz",
-          "sha256": "a3187ddfeb6259a7a059bfc886ec6bcc39a486f62366b3685d49b0b9d4c7a360"
+          "url": "https://github.com/rsvzz/csven/archive/refs/tags/0.1.6.tar.gz",
+          "sha256": "176726a69565c387184f1ed611370d5c6ff9c0a4c9011908b2744f9f5cc0d521"
         }
-              
       ]
     }
   ]
