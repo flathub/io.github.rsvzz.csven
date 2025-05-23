@@ -1,14 +1,18 @@
 {
   "id": "io.github.rsvzz.csven",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "47",
+  "runtime-version": "48",
   "sdk": "org.gnome.Sdk",
   "command": "csven",
   "finish-args": [
-      "--share=ipc",
-      "--device=dri",
-      "--socket=fallback-x11",
-      "--socket=wayland"
+    "--share=ipc",
+    "--device=dri",
+    "--socket=fallback-x11",
+    "--socket=wayland"
+  ],
+  "cleanup": [
+    "/include",
+    "/lib/questk"
   ],
   "modules": [
     {
@@ -28,10 +32,9 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/rsvzz/csven/archive/refs/tags/0.1.1.tar.gz",
-          "sha256": "a3187ddfeb6259a7a059bfc886ec6bcc39a486f62366b3685d49b0b9d4c7a360"
+          "url": "https://github.com/rsvzz/csven/archive/refs/tags/0.1.5.tar.gz",
+          "sha256": "8d9e293b5b53f04d2ef13d96d34c24e3853447f1b546646b8454c63a7305970d"
         }
-              
       ]
     }
   ]
