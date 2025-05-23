@@ -1,7 +1,7 @@
 {
   "id": "io.github.rsvzz.csven",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "48",
+  "runtime-version": "47",
   "sdk": "org.gnome.Sdk",
   "command": "csven",
   "finish-args": [
@@ -32,8 +32,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/rsvzz/csven/archive/refs/tags/0.1.5.tar.gz",
-          "sha256": "8d9e293b5b53f04d2ef13d96d34c24e3853447f1b546646b8454c63a7305970d"
+          "url": "https://github.com/rsvzz/csven/archive/refs/tags/0.1.6.tar.gz",
+          "sha256": "176726a69565c387184f1ed611370d5c6ff9c0a4c9011908b2744f9f5cc0d521"
         }
       ]
     }
