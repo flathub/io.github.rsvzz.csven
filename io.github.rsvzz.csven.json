@@ -20,8 +20,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/rsvzz/csven/archive/refs/tags/0.1.10.tar.gz",
-          "sha256": "240fcb56cf61e0b82777bff67d7b0f616f627298d5f855c8fbf665403a132dd8"
+          "url": "https://github.com/rsvzz/csven/archive/refs/tags/0.1.12.tar.gz",
+          "sha256": "c8b741f27cf5fe55b67085b5b8a43c7f05e57d222f220ca87a55abc5af8297fa"
         }
       ]
     }
