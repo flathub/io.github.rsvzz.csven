@@ -23,6 +23,11 @@
     {
       "name": "csven",
       "buildsystem": "meson",
+      "build-options": {
+        "build-args": [
+          "--share=network"
+        ]
+      },
       "sources": [
         {
           "type": "archive",
