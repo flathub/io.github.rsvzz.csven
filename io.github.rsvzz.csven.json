@@ -1,9 +1,18 @@
 {
   "id": "io.github.rsvzz.csven",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "48",
+  "runtime-version": "49",
   "sdk": "org.gnome.Sdk",
   "command": "csven",
+  "sdk-extensions": [
+    "org.freedesktop.Sdk.Extension.rust-stable"
+  ],
+  "build-options": {
+    "append-path": "/usr/lib/sdk/rust-stable/bin",
+     "build-args": [
+      "--share=network"
+    ]
+  },
   "finish-args": [
     "--share=ipc",
     "--device=dri",
@@ -20,8 +29,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/rsvzz/csven/archive/refs/tags/0.1.19.tar.gz",
-          "sha256": "33049d8b90e0a6d5b98a56a66672f18aff2f4aab275127bc69f81b0b26c0fb6b"
+          "url": "https://github.com/rsvzz/csven-rs/archive/refs/tags/v0.1.20.tar.gz",
+          "sha256": "ba4e0d807dd8d7ca59b71299c5ac1156048f14f33f4c2c4ff4520e9e57d2d4a3"
         }
       ]
     }
