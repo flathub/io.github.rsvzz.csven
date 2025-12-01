@@ -8,10 +8,7 @@
     "org.freedesktop.Sdk.Extension.rust-stable"
   ],
   "build-options": {
-    "append-path": "/usr/lib/sdk/rust-stable/bin",
-     "build-args": [
-      "--share=network"
-    ]
+    "append-path": "/usr/lib/sdk/rust-stable/bin"
   },
   "finish-args": [
     "--share=ipc",
