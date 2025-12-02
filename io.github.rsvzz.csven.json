@@ -23,16 +23,11 @@
     {
       "name": "csven",
       "buildsystem": "meson",
-      "build-options": {
-        "build-args": [
-          "--share=network"
-        ]
-      },
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/rsvzz/csven-rs/archive/refs/tags/v0.1.21.tar.gz",
-          "sha256": "362e486635587b102821e401d06713161538a60d3e51d66b8cfc5c9de3264ccc"
+          "url": "https://github.com/rsvzz/csven-rs/archive/refs/tags/v0.1.22.tar.gz",
+          "sha256": "c98d6a998c3bc747b44de64cf61b5ff8c6d2568aaa123a7a13e5bcc2e1f4138f"
         }
       ]
     }
