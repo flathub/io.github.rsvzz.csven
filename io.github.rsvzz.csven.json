@@ -23,12 +23,11 @@
     {
       "name": "csven",
       "buildsystem": "meson",
-      "build-options": {
-        "build-args": [
-          "--share=network"
-        ]
-      },
       "sources": [
+         {
+          "type":"cargo",
+          "path": "cargo-sources.json"
+        },
         {
           "type": "archive",
           "url": "https://github.com/rsvzz/csven-rs/archive/refs/tags/v0.1.21.tar.gz",
