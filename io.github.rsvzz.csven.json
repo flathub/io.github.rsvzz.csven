@@ -8,7 +8,10 @@
     "org.freedesktop.Sdk.Extension.rust-stable"
   ],
   "build-options": {
-    "append-path": "/usr/lib/sdk/rust-stable/bin"
+    "append-path": "/usr/lib/sdk/rust-stable/bin",
+    "env": {
+      "HOME_CARGO": "/run/build/csven/cargo"
+    }
   },
   "finish-args": [
     "--share=ipc",
@@ -26,8 +29,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/rsvzz/csven-rs/archive/refs/tags/v0.1.22.tar.gz",
-          "sha256": "c98d6a998c3bc747b44de64cf61b5ff8c6d2568aaa123a7a13e5bcc2e1f4138f"
+          "url": "https://github.com/rsvzz/csven-rs/archive/refs/tags/v0.1.23.tar.gz",
+          "sha256": "bde1075cb17bd594a73dc11a1df061279be714577000f491de24ef041c1c2e0f"
         }
       ]
     }
