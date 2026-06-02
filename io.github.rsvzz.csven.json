@@ -1,7 +1,7 @@
 {
   "id": "io.github.rsvzz.csven",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "49",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "command": "csven",
   "sdk-extensions": [
@@ -19,9 +19,6 @@
     "--socket=fallback-x11",
     "--socket=wayland"
   ],
-  "cleanup": [
-    "/include"
-  ],
   "modules": [
     {
       "name": "csven",
@@ -29,8 +26,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/rsvzz/csven-rs/releases/download/v0.1.28/csven-rs_v0.1.28_all.tar.xz",
-          "sha256": "58c9a33067c2d3577844e4f4badb15ddf6f7af96b8751de6fd3f40a19dea95ae"
+          "url": "https://github.com/rsvzz/csven-rs/releases/download/0.1.29/csven-rs_all.tar.xz",
+          "sha256": "4fc39c4b8cafe26de71a1dc9ed35f35d59278fd7b9bb285c335f8d8712a9dfe2"
         }
       ]
     }
